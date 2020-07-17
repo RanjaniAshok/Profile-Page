@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.main {
+    width: 1200px;
+    height: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.header {
+    position: relative;
+    background-image: url("background.jpg");
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    height: 29%;
+
+}
+
+.name {
+    position: relative;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(254, 254, 254);
+    font-size: 80px;
+    margin: 20px 0px 20px 40px;
+}
+
+.designation {
+    position: relative;
+    color: gainsboro;
+    font-size: 30px;
+    margin: 0px 0px 20px 40px;
+
+}
+
+img {
+    height: 120px;
+    border-radius: 70%;
+    margin-top: 100px;
+    margin-left: 40px;
+
+
+}
+
+.middle {
+    position: relative;
+    height: 20%;
+    background-color: rgb(6, 116, 190);
+
+}
+
+.container {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    color: gainsboro;
+    opacity: 0.5;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.container1 {
+
+    display: inline-flex;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.head {
+    color: white;
+    font-weight: 800;
+    opacity: 0.5;
+
+}
+
+.details {
+    color: rgb(253, 254, 255);
+    font-weight: 500;
+    opacity: 0.8;
+
+}
+
+.info {
+    position: absolute;
+    line-height: 1.5;
+    border-left: 4px solid rgba(255, 255, 255, 0.3);
+    padding-left: 20px;
+}
+
+.first {
+
+    top: 90px;
+    left: 23px;
+}
+
+.second {
+    top: 90px;
+    left: 400px;
+}
+
+.third {
+    top: 90px;
+    left: 800px;
+}
+
+.fourth {
+    top: 180px;
+    left: 23px;
+}
+
+.fifth {
+    top: 180px;
+    left: 400px;
+}
+
+.sixth {
+    top: 180px;
+    left: 800px;
+}
+
+.footer {
+    position: relative;
+    height: 48%;
+    background-color: rgb(6, 126, 203);
+
+}
+
+h1 {
+    position: absolute;
+    top: 50px;
+    left: 23px;
+    color: white;
+    line-height: 1.5;
+    border-left: 4px solid rgba(255, 255, 255, 0.3);
+    padding-left: 20px;
+
+}
+
+.one {
+    position: absolute;
+    top: 160px;
+    left: 20px;
+    right: 20px;
+    font-size: 20px;
+    color: rgb(192, 222, 242);
+    line-height: 1.5;
+
+
+}
+
+.two {
+    position: absolute;
+    top: 380px;
+    left: 73px;
+    right: 100px;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    opacity: 0.98;
+    font-weight: 400;
+    line-height: 1.5;
+    text-shadow: 1px 1px;
+    word-spacing: 5px;
+
+}
+
+#quote {
+    color: gainsboro;
+    font-size: 110px;
+    position: absolute;
+    top: 375px;
+    left: 20px;
+    opacity: 0.5;
+}
